@@ -1,0 +1,56 @@
+:root {
+    --main-color: #7335b7;
+    --secondry-color: #f8842b;
+    --white-color: #fff;
+}
+
+.navbar {
+    background-color: var(--main-color);
+}
+
+.nav-link:hover {
+    color: var(--secondry-color) !important;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.card a:hover {
+    border-bottom: 2px solid var(--main-color);
+}
+
+.card .btn {
+    background-color: var(--main-color);
+}
+
+.card .btn:hover {
+    background-color: #6328a2;
+}
+
+footer {
+    background-color: var(--main-color);
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--secondry-color);
+    padding: 10px 15px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.167);
+    border-radius: 10px;
+    font-size: 21px;
+    display: none;
+}
